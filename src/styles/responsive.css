@@ -1,0 +1,31 @@
+@media all and (max-width: 1200px) {
+  .sidebar {
+    transform: scaleX(0);
+    padding: 1rem 1rem;
+    position: absolute;
+    z-index: 2;
+  }
+  article.page-main {
+    width: 100%;
+  }
+  .burger-icon-btn {
+    display: inline-block;
+  }
+  .close-icon-btn {
+    display: inline-flex;
+  }
+  article.sidebar img.close-icon-btn {
+    display: inline-flex;
+  }
+}
+@media all and (min-width: 1200px) {
+  article.sidebar {
+    transform: scaleX(1) !important;
+  }
+  article.page-main {
+    width: 80% !important;
+  }
+  .burger-icon-btn {
+    display: none !important;
+  }
+}

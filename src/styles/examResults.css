@@ -1,0 +1,117 @@
+.exam-result-page-main {
+  width: 100%;
+  max-width: 100%;
+  padding: 5rem 3rem;
+  background-color: #fff;
+  color: #3c3c3c;
+}
+
+.exam-result-page-main .exam-result-left-icon {
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.exam-result-page-main .bolder-text {
+  font-weight: 600;
+}
+.exam-result-page-content {
+  margin-top: 1rem;
+  padding-inline: 5px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.blue-badge {
+  padding: 1rem 1.5rem;
+  color: #3d70f5;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 5px;
+  background: #ecf2ff;
+  margin-left: 2rem;
+}
+
+.exam-result-page-content .profile-pupils-exam-details {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  height: auto;
+}
+
+.exam-result-page-content .row:first-child {
+  margin-bottom: 3rem;
+}
+.exam-result-page-content .row:nth-child(2) {
+  justify-content: flex-start;
+  gap: 10rem;
+  margin-bottom: 2rem;
+}
+.profile img {
+  width: 7.5rem;
+}
+.profile {
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  align-items: flex-start;
+}
+
+.profile .text {
+  margin-left: 90px;
+}
+
+.row-card {
+  display: flex;
+  align-items: center;
+}
+
+.row-mrg {
+  margin-left: 20px;
+}
+
+.exam-result-page-main h2 {
+  margin-bottom: 1rem;
+}
+.exam-details-lesson .three {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-bottom: 3rem;
+}
+.exam-result-page-content .three img {
+  width: 1.2rem;
+  margin-right: 5px;
+}
+.exam-result-page-content .three .gray-text {
+  margin-right: 1.5rem;
+  font-weight: 500;
+  font-size: 16px;
+}
+.green-badge {
+  padding: 0.5rem 1.5rem;
+  color: #44cca3;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background: #ecffee;
+  margin-left: 20px;
+}
+.green-text {
+  color: #44cca3;
+}
+.exam-result-page-content .row.four {
+  justify-content: flex-start;
+  gap: 8.9rem;
+}

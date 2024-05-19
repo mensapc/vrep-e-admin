@@ -1,0 +1,89 @@
+:root {
+    --primary-text-color: #303972;
+}
+article.header {
+    width: 100%;
+    float: right;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem;
+}
+
+.header h1 {
+    font-size: 2rem;
+    color: #303972;
+    margin-left: 22px;
+}
+
+.burger-icon-btn {
+    display: none;
+    padding: 0.5rem 1rem;
+}
+article.header img {
+    width: 2rem;
+}
+article.header .search-container {
+    display: inline-flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 8px;
+    border-radius: 40px;
+    
+}
+article.header #search-input {
+    flex-grow: 1;
+    border: none;
+    padding: 8px;
+    border-radius: 0 40px 40px 0;
+}
+article.header #search-button {
+    background-color: white;
+    border: none;
+    color: white;
+    padding: 4px 12px;
+    border-radius: 40px 0 0 40px;
+    cursor: pointer;
+}
+article.header #search-button img {
+    width: 1.5rem;
+}
+article.header .row {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+article.header .notificationIcon {
+    padding: 8px;
+    border-radius: 40px;
+    align-self: center;
+    background-color: #fff;
+    position: relative;
+}
+article.header .notificationIcon .notification-dot-img {
+    position: absolute;
+    width: 0.5rem;
+    top: 5px;
+    right: 8px;
+}
+article.header .settingsIcon {
+    border-radius: 40px;
+    padding: 8px;
+    background-color: #fff;
+}
+article.header .settingsIcon img, article.header .notificationIcon img{
+    vertical-align: middle;
+}
+article.header .avatar-icon {
+    width: 3.75rem;
+}
+article.header .user-name p:first-child {
+    color: var(--primary-text-color);
+}
+@media (max-width: 1200px) {
+    article.header {
+        display: none;
+    }
+}

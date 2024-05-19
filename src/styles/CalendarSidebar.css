@@ -1,0 +1,118 @@
+.calendarside-container {
+  height: 100vh;
+  background-color: #fff;
+  padding: 2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  flex: 1;
+}
+
+.calendarside-container .recent-students {
+  margin-top: 40px !important;
+}
+
+.recent-students h3 {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+}
+
+.recent-students h3 > span {
+  position: absolute;
+  bottom: 0;
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #a098ae;
+}
+
+.recent-students h3 .avatar-container {
+  background-color: #4d44b5;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.recent-students > ul {
+  list-style: none;
+  padding-top: 1rem;
+}
+
+.recent-students > ul > li {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  margin-bottom: 10px;
+}
+
+.recent-students > ul > li > section {
+  display: flex;
+  gap: 0.5rem;
+  width: 90%;
+}
+
+.recent-students > ul > li > section > .avatar-container {
+  width: 60px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.recent-students > ul > li > section > p {
+  position: relative;
+  color: #303972;
+  display: flex;
+  font-weight: 600;
+  margin: 0;
+  gap: 1rem;
+  width: 100%;
+}
+
+.recent-students > ul > li > section > p > span {
+  position: absolute;
+  color: #a098ae;
+  font-weight: 400;
+  left: 0;
+  bottom: 0;
+  font-size: 0.8rem;
+}
+
+.recent-students > ul > li > .mail-icon {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 2px solid #a098ae;
+  cursor: pointer;
+}
+
+.recent-students > ul > li > .mail-icon > img {
+  width: 60%;
+}
+
+.calendarside-container > button {
+  border-radius: 40px;
+  background-color: rgba(77, 68, 181, 0.1);
+  border: none;
+  padding: 1rem;
+  color: #4d44b5;
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+
+.react-calendar__month-view__weekdays__weekday {
+  text-align: center !important;
+  font-size: 10px !important;
+}
+
+.react-calendar__month-view__weekdays__weekday > abbr {
+  font-size: 13px;
+  text-align: center !important;
+}

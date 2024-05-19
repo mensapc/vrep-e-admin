@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  font-family: Poppins, Courier, monospace;
+}
+
+:root {
+  --color-background: #F3F4FF;
+  --color-text: #303972;
+}
+
+.page-main {
+  background: var(--color-background);
+}
+
+.activiy-main-admin {
+    flex: 4 !important;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    flex: 4;
+    overflow-y: auto;
+}
+
+article.main-activity-el {
+  width: 90%;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 2rem 1.5rem;
+}
+
+article.main-activity-el img {
+  width: 5px;
+  height: 62px;
+}
+
+.daily-activity-section .daily-activity .divider-container {
+  width: 100%;
+  ;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.daily-activity-section .daily-activity .divider-container .divider-bar {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 20px;
+}
+
+.daily-activity-section .daily-activity .divider-circle {
+  position: relative;
+  width: 1rem;
+}
+
+.daily-activity .divider-circle.one {
+  top: 0;
+}
+
+.daily-activity .divider-circle.two {
+  bottom: 0;
+}
+
+.daily-activity-section h2 {
+  font-size: 1.125rem;
+  color: var(--color-text);
+  margin: 3rem 0 1.5rem 0;
+}
+
+.daily-activity-section .daily-activity .text .single-activity {
+  margin-bottom: 1.5rem;
+}
+
+.daily-activity-section .daily-activity .text .date {
+  color: var(--color-gray-3, #A098AE);
+  /* Text/Text Regular 2 */
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 0.5rem;
+}
+
+.daily-activity-section {
+  margin-bottom: 1.5rem;
+}
+
+.activity-mobile-title {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  .main-activity-el {
+    margin: 20px 0px;
+  }
+
+    .activity-mobile-title {
+        display: block;
+        color: #303972;
+        padding-top: 80px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .activity-dekstop-title{
+    padding: 200px !important;
+    }
+}

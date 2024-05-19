@@ -1,0 +1,78 @@
+.teacher-details {
+  border-radius: 24px;
+  background-color: #fff;
+  padding: 1rem 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 50%;
+  margin: auto;
+  position: relative;
+  color: #303972;
+  height: 95vh;
+}
+
+.-card {
+  text-align: center;
+}
+
+.teacher-details .arrow-icon {
+  position: absolute;
+  left: 4rem;
+  top: 2rem;
+  font-size: 22px;
+  color: #082567 !important;
+}
+
+.teacher-details .avatar-container {
+  width: 157px;
+  height: 157px;
+}
+
+.teacher-details > h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 2rem;
+}
+
+.teacher-details > p {
+  font-weight: 500;
+}
+
+.teacher-details > section {
+  background-color: #f3f4ff;
+  border-radius: 20px;
+  width: 95%;
+  margin-top: 1rem;
+}
+
+.teacher-details > section > h3 {
+  background-color: #082567;
+  border-radius: 20px 20px 0 0;
+  color: #fff;
+  font-weight: 700;
+  padding: 0.5rem 1.5rem;
+}
+
+.teacher-details > section > section {
+  padding: 1rem 1.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+.teacher-details > section > section > div > p {
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.teacher-details > section > section > div > span {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #494949;
+}
+.teacher-details-card {
+
+  text-align: center;
+}
